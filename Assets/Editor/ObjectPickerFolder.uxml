@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-direction: row;">
+        <ui:VisualElement class="border background" style="flex-direction: column; flex-grow: 1; align-items: stretch; justify-content: center; min-width: 20px; min-height: 50px; height: auto;">
+            <ui:VisualElement style="flex-direction: row;">
+                <uie:ObjectField label="Object" name="objectSelect" allow-scene-objects="false" usage-hints="None" class="unity-base-field__aligned" style="flex-shrink: 1; flex-grow: 1; flex-direction: row; margin-right: 0;" />
+                <ui:Button display-tooltip-when-elided="true" name="openObjectPckrBtn" style="margin-left: 0; translate: -15px 0; background-color: rgb(63, 63, 63); background-image: url(&quot;project://database/Assets/Editor/Free%20Flat%20Edit%20Icon.png?fileID=2800000&amp;guid=a352229715d1ac1438d06a86218197c3&amp;type=3#Free Flat Edit Icon&quot;); -unity-background-scale-mode: scale-to-fit; border-left-color: rgb(81, 81, 81); border-right-color: rgb(32, 32, 32); border-top-color: rgb(32, 32, 32); border-bottom-color: rgb(32, 32, 32); border-top-left-radius: 0; border-bottom-left-radius: 0; padding-left: 10px; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; margin-right: 0;" />
+                <ui:VisualElement class="unity-composite-field__field-spacer" style="flex-direction: row; flex-grow: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
