@@ -1,7 +1,7 @@
 # unity-folder-picker
-An Object Picker element where you can specify a path to show only the assets in that directory.
+A UI Toolkit Object Field that allows you to specify a path to show only the assets in that directory in the Object Picker.
 
-
+Requires Unity's UI Toolkit.
 ## Installation
 
 Simply add all files under the Assets/Editor folder to your project's Editor folder.  
